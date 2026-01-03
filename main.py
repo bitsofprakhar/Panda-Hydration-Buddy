@@ -11,12 +11,9 @@ from PyQt5.QtCore import (
 )
 from PyQt5.QtGui import QIcon, QPainter, QColor, QPen, QPixmap, QPainterPath
 
-# -----------------------------------------------------------------------------
-# CONSTANTS
-# -----------------------------------------------------------------------------
 APP_NAME = "Panda Drink Water"
 # NORMAL_INTERVAL_MS = 30 * 60 * 1000  # 30 Minutes
-NORMAL_INTERVAL_MS = 5000 # Testing
+NORMAL_INTERVAL_MS = 5000 # Testing 5 seconds
 
 REMINDER_MESSAGE = "Did you drink water? \U0001F4A7"
 
