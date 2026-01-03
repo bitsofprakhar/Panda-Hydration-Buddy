@@ -50,9 +50,7 @@ class StateSignalBus(QObject):
     interaction_done = pyqtSignal()
     walk_out_finished = pyqtSignal()
 
-# -----------------------------------------------------------------------------
-# PANDA CHARACTER (V9 - Winking Chibi + Scaled & Aligned)
-# -----------------------------------------------------------------------------
+
 class PandaCharacterWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -68,7 +66,7 @@ class PandaCharacterWindow(QWidget):
         self._facing_right = False 
         self._smiling = False
 
-    # --- QProperties ---
+    
     @pyqtProperty(float)
     def legAngle(self): return self._leg_angle
     @legAngle.setter
